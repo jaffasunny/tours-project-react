@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const Tour = () => {
-  return <h2>tour component</h2>;
+const Tour = ({ tours }) => {
+	return (
+		<section>
+			<div className="title">
+				<h2>ours tours</h2>
+				<div className="underline"></div>
+			</div>
+		</section>
+	);
 };
 
 export default Tour;
